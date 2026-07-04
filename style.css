@@ -143,3 +143,61 @@ width: 342px;
   text-decoration: underline;
 }
 
+#SignIn-heading
+{
+  color: #1e3a5f;
+  font-size: 2rem;
+  margin-bottom: 30px;
+  align-self: flex-center;
+  margin-left: 70px;
+}
+#button-submit
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 140px;
+    
+}
+#submit-btn
+{
+    width: 160px;
+    height: 50px;
+    border: none;
+    border-radius: 25px;
+    background-color: #1e3a2f;
+    color: white;
+    font-size: 18px;
+    font-family: "Libre Baskerville", serif;
+    cursor: pointer;
+}
+
+.signin-row
+{
+  display: flex;
+  align-items: center;
+  margin-bottom: 0px;
+  margin-top: 10px;
+  width: 480px;
+  height: 60px;
+}
+
+.signin-row input
+{
+  flex: 1;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  background-color: #2f9e44;
+  padding: 0 15px;
+  outline: none;
+}
+
+.signin-row label
+{
+  color: #1e3a5f;
+  font-size: 1.3rem;
+  width: 130px;
+  text-align: right;
+  margin-right: 15px;
+}
