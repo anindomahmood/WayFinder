@@ -201,3 +201,9 @@ width: 342px;
   text-align: right;
   margin-right: 15px;
 }
+
+a
+{
+  text-decoration: none;
+  color:white
+}
