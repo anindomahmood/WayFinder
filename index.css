@@ -1,0 +1,177 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+ font-family: "Libre Baskerville", serif;
+}
+
+.hero
+{
+   position: relative;
+   width: 100%; 
+   height: 90vh;
+   min-height: 620px;
+   overflow: hidden;
+}
+
+.hero-image
+{
+    width: 100%;
+    height: 680px;
+    object-position: center 50%;
+    display: block;
+}
+
+.navbar
+{
+  position:absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between;
+  padding: 32px 56px;
+  z-index:10;
+  
+}
+
+.logo 
+{
+ display: flex;
+ align-items: center;
+ 
+}
+
+.logo img
+{
+ height: 36px;
+ width: auto;
+ display: block;
+}
+.nav-links
+{
+ display: flex;
+ align-items: center;
+ gap:12px;
+list-style: none;
+}
+.nav-links li a
+{
+ display: inline-block;
+ padding: 12px 28px;
+ border-radius: 999px;
+ background:rgba(255,255,255,0.35);
+ backdrop-filter: blur(6px);
+ -webkit-backdrop-filter: blur(6px);
+ color: #1c2a4a;
+ text-decoration: none;
+font-family: "Libre Baskerville", serif;
+font-weight: 500;
+font-size: 0.95rem;
+transition:background 0.25s ease;
+}
+.nav-links li a:hover
+{
+    background: rgba(255,255,255,0.55);
+}
+
+.nav-links li a:active
+{
+    background: rgba(255,255,255,0.55);
+}
+.account-btn
+{
+  display: inline-block;
+ padding: 12px 28px;
+ border-radius: 999px;
+ background:rgba(255,255,255,0.35);
+ backdrop-filter: blur(6px);
+ -webkit-backdrop-filter: blur(6px);
+ color: #1c2a4a;
+ text-decoration: none;
+font-family: "Libre Baskerville", serif;
+font-weight: 500;
+font-size: 0.95rem;
+transition:background 0.25s ease;
+}
+.account-btn:hover
+{
+   background: rgba(255,255,255,0.55);
+}
+.hero-content
+{ 
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  width: 100%;
+ max-width: 900px;
+ text-align: center;
+ padding: 0 24px;
+ z-index: 5;
+
+
+}
+.hero-content h1
+{
+ font-family: "Libre Baskerville", serif;
+ color: #14140f;
+ font-weight: 400;
+ font-size: 2.75rem;
+ line-height: 1.3;
+ margin-bottom: 40px;
+
+}
+.search-bar
+{
+  display: flex;
+  align-items: center;
+  max-width: 620px;
+  margin: 0 auto;
+  background:rgba(255,255,255,0.35);
+ backdrop-filter: blur(8px);
+ -webkit-backdrop-filter: blur(8px);
+ border-radius: 999px;
+ padding:6px;
+ 
+}
+.search-bar input
+{
+ flex: 1;
+ border:none;
+ outline: none;
+ background: transparent;
+ padding: 14px 24px;
+ font-family: "Libre Baskerville", serif;
+font-size: 0.95rem;
+color:#1c2a4a;
+}
+.search-bar input::placeholder
+{
+    color: rgba(28,42,74,0.55);
+}
+
+.search-bar button
+{
+    border: none;
+    cursor: pointer;
+    background:#5b3ea6;
+    color: #ffffff;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 500;
+    font-size:0.95rem;
+    padding: 14px 34px;
+    border-radius: 999px; 
+    transition:background 0.25s ease;
+    
+}
+
+.search-bar button:hover
+{
+    background-color: #4d3390;
+}
