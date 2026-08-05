@@ -176,3 +176,14 @@ color:#1c2a4a;
     background-color: #4d3390;
 }
 
+
+:root{
+  --purple:#5b3ea6;
+  --purple-dark:#4d3390;
+  --navy:#1c2a4a;
+  --muted:#6b7280;
+  --bg-soft:#f7f6fb;
+  --card-border:#ececf3;
+  --gold:#f5a623;
+}
+
